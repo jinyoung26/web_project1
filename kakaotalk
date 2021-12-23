@@ -1,0 +1,128 @@
+# web_project1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>카카오톡 프로필</title>
+    <style>
+
+        .profile {
+            text-align: center;
+            color: white;
+        }
+
+        .wrap {
+            width: 480px;
+            height: 800px;
+            border: 1px solid lightgray;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .top-box {
+            height: 500px;
+            background-color: burlywood;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 50px;
+            position: relative
+        }
+
+        .line {
+            color: white;
+            margin-top: 10px;
+                     }
+
+        .white-box {
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 50px;
+            position: relative
+
+        }
+
+        .image {
+            width: 300px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 10pt;
+        }
+
+        .icon {
+            width: 60px;
+            height: 60px;
+        }
+
+        .chat-icon {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-icon {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .story-icon {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-image {
+            width: 130px;
+            height: 130px;
+            top: 430px;
+            left: 170px;
+            border-radius: 70%;
+            position: absolute;
+            object-fit: cover;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="wrap">
+        <div class="top-box">
+            <div class="line">
+                _______</div>
+            <div class="profile">
+                <br>안녕하세요 라이언이 주운 고양이 춘식이입니다!
+            </div>
+        </div>
+            <image class="profile-image" src="image/춘식.JPG"/>
+        <div class="white-box">
+            <br>
+            <h3>춘식이</h3>
+            <div class="image">
+                <div class="chat-icon">
+                    <image class="icon" src="image/나와의 채팅.PNG"/>
+                    <h4>나와의 채팅</h4>
+                </div>
+                <div class="profile-icon">
+                    <image class="icon" src="image/프로필 관리.PNG"/>
+                    <h4>프로필 관리</h4>
+                </div>
+                <div class="story-icon">
+                    <image class="icon" src="image/카카오 스토리.PNG"/>
+                    <h4>카카오 스토리</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
